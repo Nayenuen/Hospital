@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Seguimiento</h1>
+    <h2>Pacientes</h2>
+    <form class="inscripcion" action="guardarS.php" method="POST">
+        
+        <label for="CodigoPaciente">Codigo de paciente  </label>
+        <input type="text" id="CodigoPaciente" name="CodigoPaciente" maxlength="5" required><br><br>
+    
+        <label for="CodigoMedicamento">Codigo de medicamento </label>
+        <input type="text" id="CodigoMedicamento" name="CodigoMedicamento" maxlength="5" required><br><br>
+    
+        <button class="submit" type="submit">Actualizar Seguimiento</button>
+        </form>
+        </div>
+</body>
+</html>

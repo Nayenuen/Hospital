@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Registro</h1>
+    <h2>Pacientes</h2>
+    <form class="inscripcion" action="guardarP.php" method="POST">
+
+        <label for="CodigoPaciente">Coloque Numero de seguro </label>
+        <input type="text" id="CodigoPaciente" name="CodigoPaciente" maxlength="5" required><br><br>
+        
+        <label for="Nombre">Coloque Nombre  </label>
+        <input type="text" id="Nombre" name="Nombre" maxlength="25" required><br><br>
+    
+        <label for="Apellidos">Coloque Apellidos </label>
+        <input type="text" id="Apellidos" name="Apellidos" maxlength="25" required><br><br>
+    
+        <label for="Edad">Coloque Edad</label>
+        <input type="number" id="Edad" name="Edad" maxlength="3" required><br><br>
+    
+        <label for="Telefono">Coloca Telefono </label>
+        <input type="text" id="Telefono" name="Telefono" maxlength="10" required><br><br>
+    
+        <button class="submit" type="submit">Dar Alta Paciente</button>
+        </form>
+        </div>
+</body>
+</html>

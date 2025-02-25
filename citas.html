@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Registro</h1>
+    <h2>Citas</h2>
+    <form class="inscripcion" action="guardarC.php" method="POST">
+
+        <label for="CodigoPaciente">Codigo Paciente  </label>
+        <input type="text" id="CodigoPaciente" name="CodigoPaciente" maxlength="5" required><br><br>
+    
+        <label for="Padecimiento">Padecimiento </label>
+        <input type="text" id="Padecimiento" name="Padecimiento" maxlength="25" required><br><br>
+    
+        <label for="FechaHora">Fecha y Hora</label>
+        <input type="datetime-local" id="FechaHora" name="FechaHora" required><br><br>
+    
+        <button class="submit" type="submit">Crear Cita</button>
+        </form>
+        </div>
+</body>
+</html>
